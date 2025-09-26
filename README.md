@@ -16,6 +16,7 @@ Example:
   <h3>Assigned Roles</h3>
   <ul id="currentList"></ul>
 </div>
+```
 
 ```js
 import { createDualList } from './dualList.js'
