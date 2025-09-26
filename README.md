@@ -1,6 +1,23 @@
+Move items between two lists based on checkbox selection
+Auto-scroll to bottom after adding/removing items
+Simple API: `addSet()`, `removeSet()`, `unselect()`
+Framework-independent (no Vue/React required)
+
 Example:
 
-```
+```html
+<div>
+  <h3>Available Roles</h3>
+  <ul id="choiceList"></ul>
+
+  <button id="addBtn">Add →</button>
+  <button id="removeBtn">← Remove</button>
+
+  <h3>Assigned Roles</h3>
+  <ul id="currentList"></ul>
+</div>
+
+
 import { createDualList } from './dualList.js'
 
 let allRoles = [
