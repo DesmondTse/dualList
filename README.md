@@ -1,18 +1,5 @@
 Example:
 
-<div>
-  <h3>Available Roles</h3>
-  <ul id="choiceList">
-  </ul>
-
-  <button id="addBtn">Add →</button>
-  <button id="removeBtn">← Remove</button>
-
-  <h3>Assigned Roles</h3>
-  <ul id="currentList">
-  </ul>
-</div>
-
 ```
 import { createDualList } from './dualList.js'
 
